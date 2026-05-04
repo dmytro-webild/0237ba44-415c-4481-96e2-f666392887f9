@@ -146,16 +146,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Coffee Craft",          description: "The art of the perfect brew.",          imageSrc: "http://img.b2bpic.net/free-photo/roasted-coffee-beans-close-up_84443-72341.jpg",          buttonIcon: Camera,
+          title: "The Espresso Bar",          description: "Our central brewing hub, where excellence is poured.",          imageSrc: "http://img.b2bpic.net/free-photo/barista-working-coffee-machine_107420-96792.jpg",          buttonIcon: Camera,
         },
         {
-          title: "Interior Design",          description: "Designed for conversations and focus.",          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-photo-barista-holding-portafilter-working-coffee-shop-restaurant_613910-20443.jpg",          buttonIcon: Armchair,
+          title: "Cozy Seating Area",          description: "Relax and unwind in our thoughtfully curated lounge space.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-coffee-shop-with-comfortable-seats_107420-96791.jpg",          buttonIcon: Armchair,
         },
         {
-          title: "Morning Vibe",          description: "Your perfect start to the day.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-pretty-young-woman-sitting_171337-17101.jpg",          buttonIcon: Sun,
+          title: "Morning Sunroom",          description: "Enjoy your morning brew bathed in natural light.",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-interior-morning-sunlight_107420-96790.jpg",          buttonIcon: Sun,
         },
         {
-          title: "Evening Calm",          description: "Unwind in our golden light.",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-with-blurred-effect_23-2148164705.jpg",          buttonIcon: Moon,
+          title: "Artisan Details",          description: "Every corner at Meet Me Coffee is designed for your comfort.",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-counter-details_107420-96793.jpg",          buttonIcon: Moon,
         },
       ]}
       title="Moments in Meet Me"

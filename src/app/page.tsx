@@ -11,7 +11,7 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Award, Coffee, Croissant, Instagram, MessageCircle, Sparkles, Camera, Armchair, Sun, Moon } from "lucide-react";
+import { Award, Coffee, Croissant, Instagram, MessageCircle, Sparkles, Camera, Armchair, Sun, Moon, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -198,7 +198,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="Meet Me Coffee"
+      logoText="Meet Me Coffee &bull; 100 Main St, Anytown"
       socialLinks={[
         {
           icon: Instagram,
@@ -206,6 +206,9 @@ export default function LandingPage() {
         {
           icon: MessageCircle,
           href: "https://wa.me",          ariaLabel: "WhatsApp"},
+        {
+          icon: MapPin,
+          href: "https://maps.app.goo.gl/UhVjTimPerZoUZ9E8",          ariaLabel: "Location"},
       ]}
     />
   </div>
